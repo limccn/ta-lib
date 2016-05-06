@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version = "1.0"
   s.summary = "TA-Lib : Technical Analysis Library"
   s.homepage = "http://ta-lib.org/"
-  s.license = { :type => "BSD License"}
+  s.license = { :type => "BSD License" ,:file => "LICENSE.txt"}
   s.authors = {"TicTacTec" => "admin@ta-lib.org"}
   s.platform = :ios, "7.0"
   s.ios.deployment_target = "7.0"
