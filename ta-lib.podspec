@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "7.0"
   s.source = { :git => "https://github.com/limccn/ta-lib.git", :tag => "v1.0" }
   s.requires_arc = false
-  s.public_header_files = "include/*.h"
-  s.source_files = "src/ta_common/*.{h,c,csv},src/ta_func/*.{h,c}"
+  s.public_header_files = "include/ta_libc.h"
+  #s.source_files = "src/ta_common/*.{h,c,csv},src/ta_func/*.{h,c}"
+  s.source_files = "src/*/*.{h,c,csv}"
 end
